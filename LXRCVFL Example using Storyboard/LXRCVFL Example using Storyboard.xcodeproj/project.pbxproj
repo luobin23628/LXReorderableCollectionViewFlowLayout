@@ -165,6 +165,12 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "d--buzz";
+				TargetAttributes = {
+					AB0E97C1161B4BEC005498A0 = {
+						DevelopmentTeam = KQPYSP4J84;
+						ProvisioningStyle = Manual;
+					};
+				};
 			};
 			buildConfigurationList = AB0E97BC161B4BEC005498A0 /* Build configuration list for PBXProject "LXRCVFL Example using Storyboard" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -290,10 +296,13 @@
 		AB0E97E7161B4BEC005498A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = KQPYSP4J84;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LXRCVFL Example using Storyboard/LXRCVFL Example using Storyboard-Prefix.pch";
 				INFOPLIST_FILE = "LXRCVFL Example using Storyboard/LXRCVFL Example using Storyboard-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4adb2876-b0e6-418a-9b44-74761bda0fc7";
+				PROVISIONING_PROFILE_SPECIFIER = "dev-wildcard";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
@@ -302,6 +311,7 @@
 		AB0E97E8161B4BEC005498A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LXRCVFL Example using Storyboard/LXRCVFL Example using Storyboard-Prefix.pch";
 				INFOPLIST_FILE = "LXRCVFL Example using Storyboard/LXRCVFL Example using Storyboard-Info.plist";
